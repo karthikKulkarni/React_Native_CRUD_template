@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Screen should render correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "margin": 16,
+    }
+  }
+  testID="Homescreen_container"
+>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "space-evenly",
+      }
+    }
+  >
+    <Button
+      onPress={[Function]}
+      testID="Homescreen_Create_Btn"
+      title="Create"
+    />
+    <Button
+      onPress={[Function]}
+      title="Update"
+    />
+  </View>
+  <FlatList
+    ListEmptyComponent={[Function]}
+    data={
+      Array [
+        Object {
+          "body": "Boo",
+          "id": 2,
+          "title": "Foo",
+          "userId": 0,
+        },
+      ]
+    }
+    disableVirtualization={false}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onEndReachedThreshold={2}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    updateCellsBatchingPeriod={50}
+    windowSize={21}
+  />
+</View>
+`;
